@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/letters"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:padding="10dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/letterChar"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="K"
+        android:textAllCaps="true"
+        android:textColor="@color/colorWhite"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+</LinearLayout>
