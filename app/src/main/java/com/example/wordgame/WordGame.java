@@ -20,7 +20,7 @@ import java.util.Collections;
 
 public class WordGame extends AppCompatActivity implements View.OnClickListener {
 
-    private String[] words = {"Sarin", "Karmacharya", "softwarica", "coventry", "android", "assignment"};
+    private String[] words = {"Apple", "Banana", "softwarica", "coventry", "android", "assignment"};
     private RecyclerView recyclerView;
     TextView textView;
     private EditText editTextWord;
